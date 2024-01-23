@@ -1,2 +1,16 @@
 const String appLogo = "assets/images/logo.png";
 const String homeImage1 = "assets/images/home_image1.png";
+const String homeImage3 = "assets/images/home_image3.png";
+const String homeImage4 = "assets/images/home_image4.png";
+const String homeImage5 = "assets/images/home_image5.png";
+const String dashbordImage = "assets/images/home_image2.png";
+const String facebookLogo = "assets/images/facebook_logo.png";
+const String cococolaLogo = "assets/images/cococola_logo.png";
+const String googleLogo = "assets/images/google_logo.png";
+const String linkedinLogo = "assets/images/linkedin_logo.png";
+const String samsungLogo = "assets/images/samsung_logo.png";
+const String vector1 = "assets/images/Vector.png1.png";
+const String vector2 = "assets/images/Vector.png2.png";
+const String icon1 = "assets/images/icon1.png";
+const String icon2 = "assets/images/icon2.png";
+const String icon3 = "assets/images/icon3.png";
