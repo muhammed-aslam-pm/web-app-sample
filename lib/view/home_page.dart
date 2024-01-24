@@ -63,10 +63,7 @@ class _HomePageState extends State<HomePage> {
                   padding: EdgeInsets.symmetric(horizontal: 30),
                   child: Container8(),
                 ),
-                Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 30),
-                  child: footer(),
-                ),
+                footer(),
               ],
             ),
           ),

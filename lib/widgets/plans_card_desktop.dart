@@ -17,7 +17,7 @@ class PlansContainerDesktop extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: w! * 0.3,
-      height: w! * 0.3,
+      height: w! * 0.25,
       padding: EdgeInsets.all(w! * 0.045),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,

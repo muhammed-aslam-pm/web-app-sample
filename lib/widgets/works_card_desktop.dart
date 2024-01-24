@@ -13,7 +13,7 @@ class worksCardDesktop extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.all(w! * 0.07),
-      height: w! * 0.4,
+      height: w! * 0.3,
       width: w! * 0.3,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,

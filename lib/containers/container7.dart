@@ -51,7 +51,7 @@ class Container7 extends StatelessWidget {
   Widget desktopContainer7() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
-      mainAxisAlignment: MainAxisAlignment.spaceAround,
+      mainAxisAlignment: MainAxisAlignment.start,
       children: [
         Text(
           "Choose your flexible plan.",

@@ -47,16 +47,16 @@ class Container8 extends StatelessWidget {
   Widget desktopContainer8() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
-      mainAxisAlignment: MainAxisAlignment.spaceAround,
+      mainAxisAlignment: MainAxisAlignment.start,
       children: [
-        SizedBox(
-          height: 150,
-        ),
         Text(
           "We have millions of\nbest wishers",
           overflow: TextOverflow.ellipsis,
           textAlign: TextAlign.center,
-          style: TextStyle(fontWeight: FontWeight.w700, fontSize: w! / 19),
+          style: TextStyle(fontWeight: FontWeight.w700, fontSize: w! / 20),
+        ),
+        SizedBox(
+          height: 50,
         ),
         SingleChildScrollView(
             physics: const ScrollPhysics(),
