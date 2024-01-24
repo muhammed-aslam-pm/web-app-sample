@@ -3,6 +3,7 @@ import 'package:responsive_builder/responsive_builder.dart';
 import 'package:web_app_sample/utils/app_colors.dart';
 import 'package:web_app_sample/utils/app_images.dart';
 import 'package:web_app_sample/utils/constants.dart';
+import 'package:web_app_sample/widgets/bradns_logo.dart';
 
 class Container2 extends StatelessWidget {
   const Container2({super.key});
@@ -125,20 +126,6 @@ class Container2 extends StatelessWidget {
               ))
         ],
       )),
-    );
-  }
-}
-
-class logo extends StatelessWidget {
-  const logo({super.key, required this.assetImage});
-  final String? assetImage;
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      height: 40,
-      width: 140,
-      decoration:
-          BoxDecoration(image: DecorationImage(image: AssetImage(assetImage!))),
     );
   }
 }

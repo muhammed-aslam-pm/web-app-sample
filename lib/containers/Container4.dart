@@ -4,20 +4,20 @@ import 'package:web_app_sample/utils/app_colors.dart';
 import 'package:web_app_sample/utils/app_images.dart';
 import 'package:web_app_sample/utils/constants.dart';
 
-class Container5 extends StatelessWidget {
-  const Container5({super.key});
+class Container4 extends StatelessWidget {
+  const Container4({super.key});
 
   @override
   Widget build(BuildContext context) {
     return ScreenTypeLayout.builder(
-      mobile: (p0) => mobileContainer5(),
-      desktop: (p0) => desktopContainer5(),
-      tablet: (p0) => desktopContainer5(),
+      mobile: (p0) => mobileContainer4(),
+      desktop: (p0) => desktopContainer4(),
+      tablet: (p0) => desktopContainer4(),
     );
   }
 
 //-------------------------------Mobile
-  Widget mobileContainer5() {
+  Widget mobileContainer4() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
@@ -25,17 +25,19 @@ class Container5 extends StatelessWidget {
           height: w! / 1.5,
           width: w! / 1.5,
           decoration: const BoxDecoration(),
-          child: Image.asset(homeImage5),
+          child: Image.asset(homeImage4),
         ),
         const Text(
-          "USE ANYTIME",
+          "FREE SOME COST",
+          overflow: TextOverflow.ellipsis,
           style: TextStyle(color: Colors.grey),
         ),
         const SizedBox(
           height: 10,
         ),
         Text(
-          "Use anytime when\nyou need",
+          "Save cost for you and\nfamily",
+          overflow: TextOverflow.ellipsis,
           textAlign: TextAlign.center,
           style: TextStyle(fontWeight: FontWeight.w700, fontSize: w! / 12),
         ),
@@ -43,8 +45,9 @@ class Container5 extends StatelessWidget {
           height: 10,
         ),
         const Text(
-          "Tellus lacus morbi sagittis lacus in. Amet nisl at\nmauris enim accumsan nisi, tincidunt vel. Enim\nipsum, amet quis ullamcorper eget ut.",
+          "Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.",
           textAlign: TextAlign.center,
+          overflow: TextOverflow.ellipsis,
           style: TextStyle(color: Colors.grey),
         ),
         const SizedBox(
@@ -71,22 +74,30 @@ class Container5 extends StatelessWidget {
   }
 
 //-------------------------------Desktop
-  Widget desktopContainer5() {
+  Widget desktopContainer4() {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
+        Container(
+          height: w! / 2.6,
+          width: w! / 2.6,
+          decoration: const BoxDecoration(),
+          child: Image.asset(homeImage4),
+        ),
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Text(
-              "USE ANYTIME",
+              "FREE SOME COST",
+              overflow: TextOverflow.ellipsis,
               style: TextStyle(color: Colors.grey),
             ),
             const SizedBox(
               height: 10,
             ),
             Text(
-              "Use anytime\nwhen you \nneed",
+              "Save cost\nfor you and\nfamily",
+              overflow: TextOverflow.ellipsis,
               textAlign: TextAlign.start,
               style: TextStyle(fontWeight: FontWeight.w700, fontSize: w! / 19),
             ),
@@ -96,6 +107,7 @@ class Container5 extends StatelessWidget {
             const Text(
               "Tellus lacus morbi sagittis lacus in. Amet nisl at\nmauris enim accumsan nisi, tincidunt vel. Enim\nipsum, amet quis ullamcorper eget ut.",
               style: TextStyle(color: Colors.grey),
+              overflow: TextOverflow.ellipsis,
             ),
             const SizedBox(
               height: 10,
@@ -116,12 +128,6 @@ class Container5 extends StatelessWidget {
               ],
             )
           ],
-        ),
-        Container(
-          height: w! / 2.6,
-          width: w! / 2.6,
-          decoration: const BoxDecoration(),
-          child: Image.asset(homeImage5),
         ),
       ],
     );

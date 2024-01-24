@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:web_app_sample/containers/container8.dart';
 import 'package:web_app_sample/utils/constants.dart';
-import 'package:web_app_sample/widgets/Container4.dart';
-import 'package:web_app_sample/widgets/container1.dart';
-import 'package:web_app_sample/widgets/container2.dart';
-import 'package:web_app_sample/widgets/container3.dart';
-import 'package:web_app_sample/widgets/container5.dart';
-import 'package:web_app_sample/widgets/container6.dart';
+import 'package:web_app_sample/containers/Container4.dart';
+import 'package:web_app_sample/containers/container1.dart';
+import 'package:web_app_sample/containers/container2.dart';
+import 'package:web_app_sample/containers/container3.dart';
+import 'package:web_app_sample/containers/container5.dart';
+import 'package:web_app_sample/containers/container6.dart';
+import 'package:web_app_sample/containers/container7.dart';
 import 'package:web_app_sample/widgets/nav_bar.dart';
 
 class HomePage extends StatefulWidget {
@@ -49,8 +51,16 @@ class _HomePageState extends State<HomePage> {
                   height: 40,
                 ),
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 50),
+                  padding: EdgeInsets.symmetric(horizontal: 30),
                   child: Container6(),
+                ),
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 30),
+                  child: Container7(),
+                ),
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 30),
+                  child: Container8(),
                 ),
               ],
             ),
