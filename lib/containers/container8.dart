@@ -27,6 +27,9 @@ class Container8 extends StatelessWidget {
           textAlign: TextAlign.center,
           style: TextStyle(fontWeight: FontWeight.w700, fontSize: w! / 19),
         ),
+        SizedBox(
+          height: 50,
+        ),
         SingleChildScrollView(
             physics: const ScrollPhysics(),
             scrollDirection: Axis.horizontal,
@@ -46,6 +49,9 @@ class Container8 extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
+        SizedBox(
+          height: 150,
+        ),
         Text(
           "We have millions of\nbest wishers",
           overflow: TextOverflow.ellipsis,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:web_app_sample/containers/container8.dart';
+import 'package:web_app_sample/containers/footer.dart';
 import 'package:web_app_sample/utils/constants.dart';
 import 'package:web_app_sample/containers/Container4.dart';
 import 'package:web_app_sample/containers/container1.dart';
@@ -61,6 +62,10 @@ class _HomePageState extends State<HomePage> {
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 30),
                   child: Container8(),
+                ),
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 30),
+                  child: footer(),
                 ),
               ],
             ),

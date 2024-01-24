@@ -18,3 +18,6 @@ const String icon3 = "assets/images/icon3.png";
 const String icon4 = "assets/images/icon4.png";
 const String icon5 = "assets/images/icon5.png";
 const String icon6 = "assets/images/icon6.png";
+const String facebookicon = "assets/images/facebookIcon.png";
+const String twittericon = "assets/images/twitterIcon.png";
+const String linkedinicon = "assets/images/linkedinIcon.png";

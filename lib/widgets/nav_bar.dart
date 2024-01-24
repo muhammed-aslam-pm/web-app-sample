@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:web_app_sample/utils/app_colors.dart';
 import 'package:web_app_sample/utils/app_images.dart';
+import 'package:web_app_sample/widgets/logo.dart';
 
 class NavBar extends StatelessWidget {
   const NavBar({super.key});
@@ -87,31 +88,7 @@ class NavBar extends StatelessWidget {
   }
 }
 
-class NavbarLogo extends StatelessWidget {
-  const NavbarLogo({
-    super.key,
-  });
 
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Image.asset(appLogo),
-        const SizedBox(
-          width: 10,
-        ),
-        const Text(
-          "pense",
-          style: TextStyle(
-            color: Colors.black,
-            fontSize: 16,
-            fontWeight: FontWeight.w400,
-          ),
-        )
-      ],
-    );
-  }
-}
 
 class NavbarTextButton extends StatelessWidget {
   const NavbarTextButton({

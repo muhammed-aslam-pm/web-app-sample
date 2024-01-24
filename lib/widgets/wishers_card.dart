@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:web_app_sample/utils/app_colors.dart';
 import 'package:web_app_sample/utils/app_images.dart';
 
 class WishersCard extends StatelessWidget {
@@ -9,18 +10,18 @@ class WishersCard extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(right: 15, bottom: 30),
       child: Container(
-        height: 220,
+        height: 200,
         width: 340,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(8),
-          color: Colors.blue,
+          color: primaryColor,
         ),
         child: Stack(
           children: [
             Positioned(
                 top: 10,
                 child: Container(
-                  height: 210,
+                  height: 190,
                   width: 340,
                   padding: const EdgeInsets.all(20),
                   color: Colors.white,
@@ -28,7 +29,7 @@ class WishersCard extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       SizedBox(
-                        height: 95,
+                        height: 115,
                         width: double.infinity,
                         child: Text(
                           "Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium felis massa mauris, aliquam congue.",
